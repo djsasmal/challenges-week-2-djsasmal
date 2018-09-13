@@ -1,0 +1,69 @@
+<!-- Start with your chatter|app here -->
+<!--your HTML file
+
+Your Github repository contains an empty HTML file (index.html). Insert the HTML document structure you have learned so far in this course. The chatter app has two “areas”, the channel area and the chat area. In a later challenge we will align them side by side. For now, it is easier to place the chat beneath the channels.
+Insert the #title “chatter|app” in your document.
+Create #channels in the channel area
+
+#app-bar Add the app’s name as a heading to the very top of your app. You will change it into an app bar later on. 
+Add five chat #topics (channels).
+Add three #buttons: new, trending and favorites. 
+Tip: If you want to find out how to make your buttons look like those in the sample solution, either google ‘HTML buttons’ or visit one of our favorite websites W3Schools.
+Create a #chat in the chat area
+
+To keep the channels and the chat area apart, insert a horizontal rule (hr tag) or other content that separates them.
+Pick one of the channels you came up with. The conversation in that channel is displayed in your chat area.
+
+Place the channel #name at the top of the chat area. There will be an app bar at a later point, too.
+Tip: The app will have two app bars and both app bars are of equal importance, thus their html tag should be the same.
+Insert a #location (e.g., “by cheeses.yard.applies”) next to the channel name, inside the future app bar. This three words code explains where the channel was created. You generate a three words location by using what3words w3w. Make the location smaller by using an appropriate tag.
+Tip: Which HTML Tag would be appropriate? So far we have not covered it. Ask Google or w3schools.com for something like: “HTML tag smaller”.
+Write a short, fictional chat. Include text for at least three #messages but not more than six.
+Before each message, include #metadata (location, weekday, date, and time). Your chat messages should be posted from at least two different locations.
+Inside the metadata (following location and date), add a time to live (#ttl). The time indicates when the message will be deleted. We consider this information as more important than location, date and time, so please emphasize it by using an appropriate tag.
+Tip: You only need two HTML tags to independently address all #metadata and #ttl. One to address all the metadata (e.g. an appropriate heading) and one HTML tag to emphasize the ttl that is nested.
+In a new line, add a +5 min #button to each message. The future purpose of the button will be to extend the message’s time to live by five minutes.
+Check your #code
+
+Check your code before you move on to the next challenge, especially for nesting and syntax mistakes as it has an influence on your grade.
+Clean up your code and insert comments for clarity and comprehensibility.-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>chatter|app</title>
+</head>
+<body>
+    <h2>chatter|app</h2>
+    <!--Possible Channels in ChatterApp-->
+    <p><h3>#Toronto</h3></p>
+    <p><h3>#BlueJays</h3></p>
+    <p><h3>#EndOfSummer</h3></p>
+    <p><h3>#Passion</h3></p>
+    <p><h3>#OneLife</h3></p>
+    <p><button type="button">New</button><button type="button">Trending</button><button type="button">Favourites</button></p>
+
+    <hr>
+
+    <h2>#EndOfSummer by <small>tribal.scowls.sides</small></h2>
+    <!--Chat history for channel - EndOfSummer-->
+
+    <p><h4>tribal.scowls.sides Sat, September 8th, 13:37 <em>15 min. left</em></h4></p>
+    <p>How do you folks fully live & extend last few days of summer?</p>
+    <p><button type="button">+5 min.</button></p>
+
+    <p><h4>another.reform.bleak Sat, September 8th, 13:39 <em>4 min. left</em></h4></p>
+    <p>Have crepes, drink sour beer and code in the sun!</p>
+    <p><button type="button">+5 min.</button></p>
+
+    <p><h4>pellet.concurrent.uprooting Sat, September 8th, 14:02 <em>7 min. left</em></h4></p>
+    <p>Jo dil chahta hai!</p>
+    <p><button type="button">+5 min.</button></p>
+
+    <p><h4>doorframe.implicate.rashness Sat, September 8th, 14:07 <em>14 min. left</em></h4></p>
+    <p>Memento mori</p>
+    <p><button type="button">+5 min.</button></p>
+
+
+
+</body>
+</html> 
